@@ -41,7 +41,7 @@ const Bday = () => {
               : "bg-red-500 hover:bg-red-700"
           }`}
         >
-          {bdaysData.length < 0 ? "Refresh All" : "Remove All"}
+          {bdaysData.length == 0 ? "Refresh All" : "Remove All"}
         </button>
       </div>
     </>
